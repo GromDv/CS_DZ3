@@ -7,7 +7,7 @@
 /************************************************************************/
 /* Метод разворачивает любое натуральное число                          */
 /************************************************************************/
-int GetPalindrom(int param)
+int TurnOverTheNumber(int param)
 {
     int newDig = 0;
     while (param > 9)
@@ -25,7 +25,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 if (num > 0)
 {
-    int numP = GetPalindrom(num);
+    int numP = TurnOverTheNumber(num);
     if (num == numP)
         Console.WriteLine($"Число {num} является палиндромом!");
     else
