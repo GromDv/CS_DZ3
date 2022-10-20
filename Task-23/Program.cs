@@ -7,7 +7,7 @@
 // 5 | 125
 
 // Метод принимает параметр mnum и выводит таблицу кубов чисел от 1 до mnum
-void TablPrint(int mnum)
+void ThirdDegreeTablPrint(int mnum)
 {
     int count = 1;
     while (mnum >= count)
@@ -22,7 +22,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 if (num > 0)
 {
-    TablPrint(num);
+    ThirdDegreeTablPrint(num);
 }
 else
 {
