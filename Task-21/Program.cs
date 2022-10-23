@@ -5,8 +5,7 @@
 // Метод получает координаты двух точек и возвращает расстояние между ними в 3D пространстве
 double LengthVector(int mx1, int my1, int mz1, int mx2, int my2, int mz2)
 {
-    double xy = Math.Sqrt((mx2 - mx1) * (mx2 - mx1) + (my2 - my1) * (my2 - my1));
-    return Math.Sqrt(xy * xy + (mz2 - mz1) * (mz2 - mz1));
+    return Math.Sqrt((mx2 - mx1) * (mx2 - mx1) + (my2 - my1) * (my2 - my1) + (mz2 - mz1) * (mz2 - mz1));
 }
 
 Console.WriteLine("Введите координаты точки 1:");
